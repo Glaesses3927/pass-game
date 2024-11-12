@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import Header from "./Header.svelte";
+  import Footer from "./Footer.svelte";
+  import Main from "./Main.svelte";
+</script>
+
+<Header />
+<main class="font-noto mt-24 mx-10 flex flex-col items-center">
+  <Main />
+</main>
+<Footer />

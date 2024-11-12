@@ -1,0 +1,32 @@
+[
+  {
+    "number": 1,
+    "content": "8文字以上である必要があります．",
+    "check": "pass.length >= 8"
+  },
+  {
+    "number": 2,
+    "content": "数字を含む必要があります．",
+    "check": "/\\d/.test(pass)"
+  },
+  {
+    "number": 3,
+    "content": "英字小文字・大文字をどちらも含む必要があります．",
+    "check": "/[a-z]/.test(pass) && /[A-Z]/.test(pass)"
+  },
+  {
+    "number": 4,
+    "content": "今日の年月日を次の形式で含む必要があります．YYYYMMDD",
+    "check": "pass.includes(today)"
+  },
+  {
+    "number": 5,
+    "content": "以下の記号を少なくとも1つ含める必要があります．!#$%&/",
+    "check": "/[!#$%&/]/.test(pass)"
+  },
+  {
+    "number": 6,
+    "content": "数字の合計が50になる必要があります．ただし数字は全て1桁として扱います．",
+    "check": "sum==50"
+  }
+]
