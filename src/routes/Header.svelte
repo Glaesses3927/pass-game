@@ -17,7 +17,7 @@
       <a class="p-2 w-full text-center" href="https://glaesses.net/home">Home</a>
     </li>
     <li class="flex my-auto ml-6 text-gray-900 rounded hover:bg-gray-100">
-      <a class="p-2 w-full text-center" href="https://glaesses.net/home/webapps.html">WebApps</a>
+      <a class="p-2 w-full text-center" href="https://glaesses.net/home/webapps">WebApps</a>
     </li>
   </ul>
   <!-- svelte-ignore a11y_consider_explicit_label -->
@@ -36,7 +36,7 @@
     <a class="p-2 pl-6 w-full" on:click={() => controlMenu(false)} href="https://glaesses.net/home">Home</a>
   </li>
   <li class="flex text-gray-900 rounded hover:bg-gray-100">
-    <a class="p-2 pl-6 w-full" on:click={() => controlMenu(false)} href="https://glaesses.net/home/webapps.html">WebApps</a>
+    <a class="p-2 pl-6 w-full" on:click={() => controlMenu(false)} href="https://glaesses.net/home/webapps">WebApps</a>
   </li>
   <li>
     <hr class="w-4/5 h-[2px] mx-auto my-4 bg-gray-200 border-0 rounded">
